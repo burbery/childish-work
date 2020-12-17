@@ -61,7 +61,7 @@
 <view wx:if="{{Cone}}">
   <button bindtap="cc">“孔乙己，你脸上又添上新伤疤了！你一定又偷了人家的东西！”</button>
   <button bindtap="ccendOne">“我不做人啦，Jojo!”</button>
-  <button bindtap="mm">踩他一脚继续爬山</button>
+  <button bindtap="mmm">踩他一脚继续爬山</button>
 </view>
 <view wx:if="{{Ctwo}}">
   <button bindtap="ccc">“茴字有四种写法...”</button>
