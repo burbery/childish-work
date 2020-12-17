@@ -1,0 +1,95 @@
+<!--pages/home/home.wxml-->
+<page-meta
+  page-style="color:green"
+  root-font-size="25px"
+>
+</page-meta>
+<view>
+  <text >{{text}}</text>
+</view>
+<view wx:if="{{Mone}}">
+  <button bindtap="a">去看看</button>
+  <button bindtap="m">不理它</button>
+</view>
+<view wx:if="{{Mtwo}}">
+  <button bindtap="b">去看看</button>
+  <button bindtap="mm">不理它</button>
+</view>
+<view wx:if="{{Mthree}}">
+  <button bindtap="c">对他说：“你没事吧？”</button>
+  <button bindtap="mmm">不理他</button>
+</view>
+<view wx:if="{{Mend}}">
+  <button bindtap="mclickMe">啊这...</button>
+</view>
+<view wx:if="{{Aone}}">
+  <button bindtap="aend">跌坐在地</button>
+  <button bindtap="m">转身就走</button>
+</view>
+<view wx:if="{{Aend}}">
+  <button bindtap="aclickMe">嘛玩意儿！！！</button>
+</view>
+<view wx:if="{{Bone}}">
+  <button bindtap="bb">拿上怀表追上去</button>
+  <button bindtap="mm">扭头就走</button>
+</view>
+<view wx:if="{{Btwo}}">
+  <button bindtap="bbb">路上的植物长得很奇特，通往城堡的大道</button>
+  <button bindtap="bbbendOne">上方是树屋的藤梯</button>
+  <button bindtap="bbbendTwo">通往一扇门的小路</button>
+</view>
+<view wx:if="{{Bthree}}">
+  <button bindtap="bbbendFive">不说话观察情况</button>
+  <button bindtap="bbbendThree">自报家门以示善意</button>
+  <button bindtap="bbbendFour">惊呼“你是谁”</button>
+</view>
+<view wx:if="{{Bendone}}">
+  <button bindtap="boneclickMe">放我下去！</button>
+</view>
+<view wx:if="{{Bendtwo}}">
+  <button bindtap="btwoclickMe">十分愤怒，夺门而出！</button>
+</view>
+<view wx:if="{{Bendthree}}">
+  <button bindtap="bthreeclickMe">孩子叫做王浩然，他的全名十分难念</button>
+</view>
+<view wx:if="{{Bendfour}}">
+  <button bindtap="bfourclickMe">我没有皮卡丘！</button>
+</view>
+<view wx:if="{{Bendfive}}">
+  <button bindtap="bfiveclickMe">太感动啦呱唧呱唧呱唧</button>
+</view>
+<view wx:if="{{Cone}}">
+  <button bindtap="cc">“孔乙己，你脸上又添上新伤疤了！你一定又偷了人家的东西！”</button>
+  <button bindtap="ccendOne">“我不做人啦，Jojo!”</button>
+  <button bindtap="mm">踩他一脚继续爬山</button>
+</view>
+<view wx:if="{{Ctwo}}">
+  <button bindtap="ccc">“茴字有四种写法...”</button>
+  <button bindtap="ccrestOne">“你在此处不要走动，我去给你买个橘子。”</button>
+</view>
+<view wx:if="{{Cthree}}">
+  <button bindtap="cccc">“俺也一样！”</button>
+  <button bindtap="ccrestTwo">“好家伙！”</button>
+</view>
+<view wx:if="{{Cfour}}">
+  <button bindtap="ccccc">“直挂云帆济沧海！”</button>
+</view>
+<view wx:if="{{Cfive}}">
+  <button bindtap="ccendTwo">“行者孙！”</button>
+  <button bindtap="ccendThree">“吾乃常山赵子龙！”</button>
+</view>
+<view wx:if="{{Crestone}}">
+  <button bindtap="crestoneclickMe">呜呜呜</button>
+</view>
+<view wx:if="{{Cresttwo}}">
+  <button bindtap="cresttwoclickMe">老师我错了</button>
+</view>
+<view wx:if="{{Cendone}}">
+  <button bindtap="coneclickMe">jo厨无处不在</button>
+</view>
+<view wx:if="{{Cendtwo}}">
+  <button bindtap="ctwoclickMe">“你爷爷在此！”</button>
+</view>
+<view wx:if="{{Cendthree}}">
+  <button bindtap="cthreeclickMe">我要感谢国家，感谢CCTV......</button>
+</view>
