@@ -22,6 +22,7 @@ m(){
   mmm(){
     this.setData({
       Mthree:false,
+      Cone:false,
       text:'其实你今天爬山就是为了自杀，你对生活彻底失望了，对山路上的各种怪异现象不理不睬，静静地爬到了山顶，跳了下去，恭喜你自杀成功！',
       Mend:true,
     })
